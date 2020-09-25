@@ -66,10 +66,47 @@
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
     Uso de arrays ordenadas. Creación en una sola sentencia.
     </li>
-
+      <ul>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Construír un array con el quinteto inicial de un equipo de basket. Construyelo usando "array()" y usando "[]". Imprimir dicho quinteto usando etiquetas "ul" y "li". Imprimelo de dos modos distintos: 
+            <br>
+            a) Indicando sólo los nombres.
+            b) Indicando la posición del nombre en el array (0, 1, 2, ...).
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Construye un array con el nombre de 4 países y muestralo por pantalla.
+        </li>
+      </ul>
     <li>
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
     Uso de arrays ordenadas. Añadir elementos dinámicamente.
+    </li>
+      <ul>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Repitite el ejercicio 6 añadiendo los elementos al array de uno en uno.
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Repitite el ejercicio 7 añadiendo los elementos al array de uno en uno.
+        </li>
+      </ul>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Uso de arrays asociativos. 
+    </li>
+    <ul>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Repitite el ejercicio 6. En esta ocasión debes usar un array asociativo. Cada posición se llamará correctamente: base, escolta, alero, alapivot, pivot.
+          Muestra el resultado con un "foreach (clave => valor)"
+        </li>
+      </ul>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Array de más de una dimensión
     </li>
 
   </ol>
