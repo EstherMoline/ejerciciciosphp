@@ -2,27 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>ejemplo</title>
+        <title>03</title>
     </head>
-</head>
-<body>
-    <?php
-    define('SIZE', 10);
-    echo "<table border=1>";
+    <body>
+        <?php
+        
 
-    $number = 1;
-    for ($row = 1; $row <= SIZE; $row++) {
-        if ($row % 3 == 0)
-            echo "<tr bgcolor = gainsboro>";
-        else
-            echo "<tr>";
-        for ($column = 3; $column <= 3; $column++) {
-            echo "<td>", $number, "</td>";
-            $number = $number + 1;
-        }
-        echo "</tr>";
-    }
-    echo "</table>";
-    ?>
+            for ($number=0; $number < 10; $number++) { 
+                if ($number %3 ==0) {
+                echo $number."<br>";
+            
+                
+                }
+            }
+        ?>
+
 </body>
 </html>
